@@ -1,6 +1,6 @@
 <p align="center"><img src="assets/banner.png" alt="Uncrypted256 — reverse engineering, cryptography and systems" width="100%"></p>
 
-Разбираюсь, как устроены программы, и пишу свои инструменты. Занимаюсь реверсом, прикладной криптографией и системным программированием. Здесь же собираю свои приложения и проекты автоматизации.
+Пишу приложения и инструменты для своих задач. Здесь собраны мои проекты и эксперименты с кодом.
 
 [uncrypted.fun](https://uncrypted.fun) · [admin@uncrypted.fun](mailto:admin@uncrypted.fun)
 
