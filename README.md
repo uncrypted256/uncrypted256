@@ -78,6 +78,30 @@
 
 [Репозиторий · private](https://github.com/uncrypted256/stream-learning-lab)
 
+<a href="https://github.com/uncrypted256/csp-lens"><img src="assets/csp-lens.png" alt="CSP Lens" width="100%"></a>
+
+Разбор URL-правил Content Security Policy: какое правило разрешает или блокирует ресурс и что меняется при нескольких политиках. Действующие правила проверяются вместе, report-only показаны отдельно. Есть объяснения по каждому ресурсу и офлайн HTML-отчёт. Для nonce, hash и strict-dynamic без нужного контекста остаётся явный unknown. Python без runtime-зависимостей, 19 тестов и чистая установка пакета. Полный браузерный движок и проверка безопасности сайта в этот инструмент не входят.
+
+![CSP Lens: настоящий отчёт на вымышленных URL](assets/csp-lens-report.jpg)
+
+[Репозиторий · private](https://github.com/uncrypted256/csp-lens)
+
+<a href="https://github.com/uncrypted256/elf-atlas"><img src="assets/elf-atlas.png" alt="ELF Atlas" width="100%"></a>
+
+Статический инспектор ELF32/64: сегменты, виртуальные адреса, объявленные библиотеки и пути поиска. Работает с обоими порядками байтов, показывает права R/W/X и отдельные GNU-индикаторы. Файл не запускается; неоднозначные адреса и выход за границы дают явную ошибку. 17 тестов, чистая установка CLI и собственный C-пример, скомпилированный в ELF-объект и прочитанный без выполнения. Disassembly и вывод о безопасности файла не заявляются.
+
+![ELF Atlas: сегменты и зависимости синтетического объекта](assets/elf-atlas-report.jpg)
+
+[Репозиторий · private](https://github.com/uncrypted256/elf-atlas)
+
+<a href="https://github.com/uncrypted256/query-loom"><img src="assets/query-loom.png" alt="Query Loom" width="100%"></a>
+
+Сравнение SQLite EXPLAIN QUERY PLAN на двух офлайн-снимках базы. Видно, где появился индекс, остался scan или исчезла временная сортировка. Переданные SELECT не выполняются, параметры в отчёт не попадают; SQL включается отдельно. В примере три настоящих плана на 1000 вымышленных записях. 21 тест и чистая установка пакета. Поддерживаются самостоятельные rollback-journal snapshots; это анализ планов без замера ускорения.
+
+![Query Loom: сравнение до и после добавления индексов](assets/query-loom-report.jpg)
+
+[Репозиторий · private](https://github.com/uncrypted256/query-loom)
+
 <a href="https://github.com/uncrypted256/reverse-engineering-lab"><img src="assets/reverse-engineering-lab.png" alt="Reverse Engineering Lab" width="100%"></a>
 
 Офлайн-инструменты для метаданных PE, PCAPNG/TLS, Firewall и JSONL-журналов. Бинарники и записанный трафик не выполняются. Сравнение двух снимков отделяет новые HTTP-группы и значения полей от изменения частот; по умолчанию показывает числа, приватные поля включаются отдельно. Для compare прошли 22 теста и чистая установка CLI на двух искусственных снимках. В README есть воспроизводимые примеры пяти проверенных команд. Подлинность журналов, причины изменений, расшифровка и Authenticode не устанавливаются.
