@@ -1,10 +1,10 @@
 <p align="center"><img src="assets/banner.png" alt="Uncrypted256" width="100%"></p>
 
-Пишу приложения и инструменты для своих задач. Здесь собраны мои проекты и эксперименты с кодом.
+Проекты ниже
 
 [uncrypted.fun](https://uncrypted.fun) · [admin@uncrypted.fun](mailto:admin@uncrypted.fun)
 
-Исходники приложений находятся в приватных репозиториях. Для просмотра нужен доступ.
+Исходники приложений находятся в приватных репозиториях. Для демо и просмотра сурсов пишите на почту admin@uncrypted.fun
 
 <a href="https://github.com/uncrypted256/256gram"><img src="assets/256gram.png" alt="256gram" width="100%"></a>
 
